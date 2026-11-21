@@ -1,0 +1,7 @@
+.section { padding: 32px 0; }
+.section__header { display: flex; align-items: center; margin-bottom: 24px; }
+.section__header--left { justify-content: space-between; }
+.section__header--center { justify-content: center; position: relative; }
+.section__header h2 { font-size: 24px; font-weight: 700; color: var(--dark-gray-2); }
+.section__link { font-size: 18px; color: var(--primary); }
+.section__header--center .section__link { position: absolute; right: 0; }
